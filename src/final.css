@@ -212,24 +212,22 @@ figcaption{
 }
 
 .keyboard {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background-color: rgb(33, 33, 33);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.3);
     min-height: 750px;
+    display: flex;
     flex: 1;
     flex-direction: column;
-  
+    justify-content: space-evenly;
 }
 
 .keyboard img {
-    margin: 0;;
-    width: 100%;
-    height: auto;
+    margin: 0;
+    width: 50%;
+    height: auto
     border-radius: 10px;
 }
 
@@ -252,9 +250,7 @@ figcaption{
 }
 
 .monitor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
     background-color: rgb(33, 33, 33);
     margin: 20px auto;
     padding: 20px;
