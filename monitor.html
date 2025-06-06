@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Monitor</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <h1>Gaming Monitor</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="mouse.html">Gaming Mouse</a>
+        <a href="keyboard.html">Gaming Keyboards</a>
+        <a href="monitor.html"><span class="current">Gaming Monitor</span></a>
+        <a href="headset.html">Gaming Headsets</a>
+        <a href="accessories.html">Other Accessories</a>
+    </nav>
+
+    <main>
+        <div class="maincontent">
+            <h2>Why a Monitor Matters</h2>
+            <p>Having a quality gaming monitor can make a gamer's performance better. Monitors are the ones that gamers will always look at, so it is important to have a monitor that is smooth, the right size, and the right hertz to make the gaming experience better.</p>
+        </div>
+
+        <div class="monitor-recommendations">
+            <h2>Top Gaming Monitors of 2025</h2>
+
+            <div class="monitor">
+                <h3>Budget Gaming Monitor: AOC 24G2</h3>
+                <figure>
+                    <img src="aoccopy.png" alt="aoc">
+                    <figcaption>
+                        Image source:<a href="https://storage.aoc.com/assets/8454/AOC_24G2_PV_FTL-large.png">AOC</a>
+                    </figcaption>
+                </figure>
+                <p>The AOC 24G2 is an excellent budget-friendly option that offers a 144Hz refresh rate and 1ms response time, making it perfect for fast-paced gaming. Reference: <a href="https://www.rtings.com/monitor/reviews/aoc/24g2">RTINGS</a></p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>24-inch Full HD (1920 x 1080) Display</li>
+                    <li>144Hz Refresh Rate</li>
+                    <li>1ms Response Time</li>
+                    <li>FreeSync Support</li>
+                </ul>
+            </div>
+
+            <div class="monitor">
+                <h3>Mid-Tier Gaming Monitor: Dell S2721DGF</h3>
+                <figure>
+                    <img src="dells.jpeg" alt="dell">
+                    <figcaption>
+                        Image source: <a href="https://i.rtings.com/assets/products/1tGWF8XE/dell-s2721dgf/design-medium.jpg?format=auto">RTINGS</a>
+                    </figcaption>
+                </figure>
+                <p>The Dell S2721DGF offers a great balance of performance and features with a 165Hz refresh rate and QHD resolution, making it ideal for gamers looking for quality without breaking the bank. Reference: <a href="https://www.tomshardware.com/reviews/dell-s2721dgf-27-inch-165-hz-gaming-monitor">Tom's Hardware</a></p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>27-inch QHD (2560 x 1440) Display</li>
+                    <li>165Hz Refresh Rate</li>
+                    <li>1ms Response Time</li>
+                    <li>G-SYNC Compatible</li>
+                </ul>
+            </div>
+
+            <div class="monitor">
+                <h3>High-End Gaming Monitor: ASUS ROG Swift PG32UQX</h3>
+                <figure>
+                    <img src="rog.png" alt="rog">
+                    <figcaption>
+                        Image Source: <a href="https://dlcdnwebimgs.asus.com/gain/A00C8F15-E127-4AB4-A5F3-B22FF0CB6BC9/w717/h525">ASUS</a>
+                    </figcaption>
+                </figure>
+                <p>This premium monitor features a 4K resolution, 144Hz refresh rate, and HDR support, making it perfect for gamers who want the best visuals and performance. Reference: <a href="https://tftcentral.co.uk/reviews/asus_rog_swift_pg32uqx">TFTCentral</a></p>
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>32-inch 4K UHD (3840 x 2160) Display</li>
+                    <li>144Hz Refresh Rate</li>
+                    <li>1ms Response Time</li>
+                    <li>HDR Support with Mini LED Backlight</li>
+                    <li>NVIDIA G-SYNC Ultimate</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="message"></div>
+        <form action="processing.html" method="get" id="dio">
+            <fieldset>
+                <legend>What is your monitor preference?</legend>
+                <div>
+                    <label for="fullname"> Full name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full name" required>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required placeholder="Email">
+                </div>
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="number" id="number" required placeholder="Phone Number">
+                </div>
+                <div>
+                    <div class="spacer">Budget </div>
+                    <label><input type="radio" name="budget" value="low budget">Low Budget</label>
+                    <label><input type="radio" name="budget" value="mid budget">Mid Budget</label>
+                    <label><input type="radio" name="budget" value="entry level">Entry Level</label>
+                    <label><input type="radio" name="budget" value="high End">High End</label>
+                </div>
+                <div>
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" name="agree" id="agree">Do you want to receive more updates from our page?</label>
+                </div>
+                <div>
+                    <label for="brand">Favorite Brand</label>
+                    <select name="brand" id="brand">
+                        <option value="" selected disabled>Select a brand</option>
+                        <option value="ZW">Zowie</option>
+                        <option value="Acer">Acer</option>
+                        <option value="Asus">ASUS</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="LG">LG</option>
+                        <option value="other">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comments">Is there anything else that we should know?:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Dio Bondoc, 2025</p>
+    </footer>
+    <script src="form.js"></script>
+    
+</body>
+</html>
