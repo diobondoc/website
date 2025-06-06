@@ -183,11 +183,9 @@ figcaption{
 }
 
 .item {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
     background-color: rgb(33, 33, 33);
     width: 50%;
+    height: auto;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -201,7 +199,7 @@ figcaption{
 
 .item img{
     margin: 0;
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
@@ -228,7 +226,6 @@ figcaption{
     margin: 0;
     width: 50%;
     height: auto
-    border-radius: 10px;
 }
 
 .keyboard h3{
